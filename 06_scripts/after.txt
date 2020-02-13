@@ -1,0 +1,4 @@
+As we can see we can make the whole project a lot cleaner.
+At this point you do not need to edit the R code to get different
+results from the query, and then the same query could be used in
+another project in possibly a different language entirely.

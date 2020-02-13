@@ -1,0 +1,4 @@
+After running both these files, we can see that the
+sqlite3 version ran much faster. The reason is because
+we don't need to read the entire file, only the parts
+that we want to.

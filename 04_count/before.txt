@@ -1,0 +1,1 @@
+Similar to 03_max, but with count. It counts the number of rows

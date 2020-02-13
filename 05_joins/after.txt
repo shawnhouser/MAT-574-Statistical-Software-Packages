@@ -1,0 +1,4 @@
+We can see that again sqlite3 is much faster than reading
+a csv file and doing work on that. The reason for this is
+the database is smart about how it stores the data. It can
+do operations much faster than we could.

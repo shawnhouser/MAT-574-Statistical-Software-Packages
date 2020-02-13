@@ -1,0 +1,1 @@
+nrow(subset(mtcars, cyl == 6))

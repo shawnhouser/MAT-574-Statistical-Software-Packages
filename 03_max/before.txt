@@ -1,0 +1,5 @@
+There are functions that are very similar to R in sql
+An example of this is the max function.
+
+It will iterate over all rows in a table and select the
+row with the maximum of that column

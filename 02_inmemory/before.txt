@@ -1,0 +1,5 @@
+Not all interactions with sqlite3 need to be stored in a
+file, information can be stored in the RAM of your computer
+and will exist only as long as the R program exists. This
+is useful because you will not have to keep extra files that
+are useless to you after computation has been completed.

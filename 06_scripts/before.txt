@@ -1,0 +1,4 @@
+Many times, the queries that you want to run could be very
+complex. When the query becomes that complex it is useful to
+move it into its own file. R can then read the file and use
+the sql in there to run a query.

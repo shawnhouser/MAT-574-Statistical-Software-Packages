@@ -1,0 +1,4 @@
+We can see that the sqlite3 version took a lot more setup
+than its pure R counterpart. This may be inefficient for small
+projects and tables like this, but for bigger problems the
+sqlite3 solution will be simpler.

@@ -1,0 +1,58 @@
+What is a Database Management System
+	A tool that provides a layer of abstraction
+	over the data that you interact with.
+
+Without a Database
+	You have to interact with a bunch of files
+		Imagine doing analysis on MainStreet
+		There will be a bunch of different data types
+		There could be many csv's, json, xml, or worse
+	You may have to deal with custom datatypes
+		USM may have a custom format that you need
+		to extract data from.
+
+A database will solve these issues
+Sqlite3 is a specific database manager (it manages the data)
+
+Why Sqlite3
+	It saves all of the data in one file
+	You interact with this data using SQL
+	It can be easier to ask for data in SQL
+		than it would be to write code in R
+	It has been tried and tested
+	Universal, works on nearly anything
+	Used everywhere
+		Web browsers, cars, planes
+	Databases it produces are a single file that
+		can be transfered without fear of different
+		computers doing nasty things to the data
+		
+What does a database look like?
+	Collection of tables
+	Each table is like its own csv file
+	Relations between tables
+		Different tables can share values
+
+Example Database
+	words.csv
+	---->
+	word_string | word_id
+	------------|--------
+	 Strawberry |    1
+	 Apple      |    2
+	 ...        |  ...
+	 Saturday   | 93,784
+
+	counts.csv
+	---->
+	 word_id | word_count
+	 --------|-----------
+	     1   |  3992
+	     2   |    42
+	 93,784  |   112
+
+Installing sqlite3
+	install.packages("RSQLite")
+	This should be all you need.
+	Usure if this will install sqlite3 itself,
+	or only allow connection if it is already installed

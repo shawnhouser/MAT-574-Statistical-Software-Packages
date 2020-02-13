@@ -1,0 +1,3 @@
+This is a small demo to show how to interact with a
+sqlite3 database from R, and its counterpart of interacting
+with a csv file.

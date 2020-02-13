@@ -1,0 +1,4 @@
+The real utility in sql is being able to work with multiple
+tables at once. This can become tiresome if you are working
+with just csv files.
+
